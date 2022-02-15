@@ -1,2 +1,2 @@
 # code-learn
-Java code, Multi thread, Data structures, Algorithms, Network and so on.
+Java code, Multi io.shibd.learn.thread, Data structures, Algorithms, Network and so on.
