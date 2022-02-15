@@ -1,3 +1,6 @@
+.idea
+*.impl
+target/
 # Compiled class file
 *.class
 
