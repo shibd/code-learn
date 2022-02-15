@@ -1,4 +1,4 @@
-package io.shibd.qbank.blockqueue;
+package io.shibd.qbank.printnumber;
 
 public class PrintNumberThree extends Thread {
 

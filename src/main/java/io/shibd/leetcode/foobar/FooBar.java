@@ -1,4 +1,4 @@
-package com.baozi.leetcode.foobar;
+package io.shibd.leetcode.foobar;
 
 /**
  * 1115.交替打印FooBar

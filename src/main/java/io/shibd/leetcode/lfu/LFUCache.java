@@ -1,4 +1,4 @@
-package com.baozi.leetcode.lfu;
+package io.shibd.leetcode.lfu;
 
 import java.util.HashMap;
 import java.util.LinkedList;

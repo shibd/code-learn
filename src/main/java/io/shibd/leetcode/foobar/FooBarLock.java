@@ -1,4 +1,4 @@
-package com.baozi.leetcode.foobar;
+package io.shibd.leetcode.foobar;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
