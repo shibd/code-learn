@@ -1,4 +1,4 @@
-package io.shibd.learn;
+package io.shibd.qbank.stack;
 
 /**
  * @Auther: baozi

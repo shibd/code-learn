@@ -15,21 +15,23 @@ public class QuitSort {
 
     public static int pation(int A[], int left, int right) {
         int priovt = A[right];
-        int tail = left;
-        for (int i = left; i <= right; i++) {
-            if (A[i] <= priovt) {
-                swap(A, i, tail);
-                tail++;
+        int i = left;
+        for (int j = left; j <= right; j++) {
+            // 注意这里不能等于,不然就是不稳定排序了
+            if (A[j] < priovt) {
+                swap(A, i, j);
+                i++;
             }
         }
-        return tail;
+        swap(A, i, right);
+        return i;
     }
 
     public static void quickSort(int A[], int left, int right) {
         if (left < right) {
             int pation = pation(A, left, right);
             quickSort(A, left, pation - 1);
-            quickSort(A, pation, right);
+            quickSort(A, pation + 1, right);
         }
     }
 

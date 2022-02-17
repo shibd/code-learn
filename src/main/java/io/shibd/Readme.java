@@ -1,5 +1,7 @@
 package io.shibd;
 
+import io.shibd.leetcode.lfu.LFUCache;
+import io.shibd.leetcode.lru.LRUCache;
 import io.shibd.qbank.alibaba.*;
 import io.shibd.qbank.aqs.countdownlatch.ReaderResult;
 import io.shibd.qbank.aqs.cyclicbarrier.TestCyclicBarrier;
@@ -8,8 +10,9 @@ import io.shibd.qbank.jd.OrderService;
 import io.shibd.qbank.linked.*;
 import io.shibd.qbank.mianshi1.*;
 import io.shibd.qbank.printnumber.*;
-import io.shibd.qbank.sort.BigHeapSort;
+import io.shibd.qbank.queue.ArrayQueue;
 import io.shibd.qbank.sort.QuitSort;
+import io.shibd.qbank.stack.ArrayStack;
 import io.shibd.qbank.topk.TopkCount;
 
 /**
@@ -27,17 +30,18 @@ import io.shibd.qbank.topk.TopkCount;
  * 11.删除链表倒数第N个节点 {@link RemoveNLinked}
  * 12.翻转链表 {@link ReversalLinked}
  * 13.编写两个线程，一个线程打印1~25，另一个线程打印字母A~Z，打印顺序为12A34B56C……5152Z {@link ThreadOne}{@link ThreadTwo}{@link ThreadThree}
- * 14.堆排序 {@link BigHeapSort}
  * 15.快速排序 {@link QuitSort}
  * 16.(TopK)求数据中前K大数据 {@link TopkCount}
- * 17.(TopK)求数据中前K大数据 {@link TopkCount}
+ * 17.手写一个队列 {@link ArrayQueue}
+ * 17.手写一个栈 {@link ArrayStack}
  *
  *
  * ## LeetCode 括号内部是题号
  * 1. (1115)交替打印FooBar {@link io.shibd.leetcode.foobar.FooBar} {@link io.shibd.leetcode.foobar.FooBarLock}
- * 2. (460)LFU缓存 {@link com.baozi.leetcode.lfu.LFUCache}
- * 3. TODO LRU实现
- * 4.
+ * 2. (460)LFU缓存 {@link LFUCache}
+ * 3. (146)LRU缓存 {@link LRUCache}
+ * 4. TODO 二叉树遍历
+ * 5. TODO
  *
  * ## 学习样例代码
  * 1. BitMap的实现 {@link io.shibd.learn.bitemaps.BitMap}
