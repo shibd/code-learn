@@ -30,6 +30,7 @@ import io.shibd.qbank.topk.TopkCount;
  * 11.删除链表倒数第N个节点 {@link RemoveNLinked}
  * 12.翻转链表 {@link ReversalLinked}
  * 13.编写两个线程，一个线程打印1~25，另一个线程打印字母A~Z，打印顺序为12A34B56C……5152Z {@link ThreadOne}{@link ThreadTwo}{@link ThreadThree}
+ * 14.数组中的第K个最大元素 {@link io.shibd.leetcode.findk.Solution}
  * 15.快速排序 {@link QuitSort}
  * 16.(TopK)求数据中前K大数据 {@link TopkCount}
  * 17.手写一个队列 {@link ArrayQueue}
