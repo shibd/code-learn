@@ -1,12 +1,11 @@
-package io.shibd.qbank.sort;
+package io.shibd.leetcode.sort.quick;
+
+import io.shibd.utils.ArraysUtils;
 
 /**
- * @Auther: baozi
- * @Date: 2019/4/8 22:14
- * @Description:
+ * @author baozi
  */
-public class QuitSort {
-
+public class Solution {
     public static void swap(int A[], int left, int right) {
         int num = A[left];
         A[left] = A[right];
@@ -35,16 +34,14 @@ public class QuitSort {
         }
     }
 
-    public static void print(int A[]) {
-        for (int i = 0; i < A.length; i++) {
-            System.out.print(A[i] + " ");
-        }
-        System.out.println();
+    public int[] sortArray(int[] nums) {
+        quickSort(nums, 0, nums.length - 1);
+        return nums;
     }
 
     public static void main(String[] args) {
         int A[] = { 5, 2, 9, 4, 7, 6, 1, 10, 3, 8 };// 从小到大堆排序
-        quickSort(A, 0, A.length - 1);
-        print(A);
+        new Solution().sortArray(A);
+        ArraysUtils.print(A);
     }
 }

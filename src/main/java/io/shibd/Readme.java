@@ -11,7 +11,6 @@ import io.shibd.qbank.linked.*;
 import io.shibd.qbank.mianshi1.*;
 import io.shibd.qbank.printnumber.*;
 import io.shibd.qbank.queue.ArrayQueue;
-import io.shibd.qbank.sort.QuitSort;
 import io.shibd.qbank.stack.ArrayStack;
 import io.shibd.qbank.topk.TopkCount;
 
@@ -30,9 +29,7 @@ import io.shibd.qbank.topk.TopkCount;
  * 11.删除链表倒数第N个节点 {@link RemoveNLinked}
  * 12.翻转链表 {@link ReversalLinked}
  * 13.编写两个线程，一个线程打印1~25，另一个线程打印字母A~Z，打印顺序为12A34B56C……5152Z {@link ThreadOne}{@link ThreadTwo}{@link ThreadThree}
- * 14.数组中的第K个最大元素 {@link io.shibd.leetcode.findk.Solution}
- * 15.快速排序 {@link QuitSort}
- * 16.(TopK)求数据中前K大数据 {@link TopkCount}
+ * 14. (TopK)求数据中前K大数据 {@link TopkCount}
  * 17.手写一个队列 {@link ArrayQueue}
  * 17.手写一个栈 {@link ArrayStack}
  *
@@ -41,8 +38,9 @@ import io.shibd.qbank.topk.TopkCount;
  * 1. (1115)交替打印FooBar {@link io.shibd.leetcode.foobar.FooBar} {@link io.shibd.leetcode.foobar.FooBarLock}
  * 2. (460)LFU缓存 {@link LFUCache}
  * 3. (146)LRU缓存 {@link LRUCache}
- * 4. TODO 二叉树遍历
- * 5. TODO
+ * 4. (912)排序数组 快速排序{@link io.shibd.leetcode.sort.quick.Solution} 归并排序{@link io.shibd.leetcode.sort.merge.Solution}
+ * 5. (23)合并K个升序链表 {@link io.shibd.leetcode.mergek.Solution}
+ * 6. (215)数组中的第K个最大元素 {@link io.shibd.leetcode.findk.Solution}
  *
  * ## 学习样例代码
  * 1. BitMap的实现 {@link io.shibd.learn.bitemaps.BitMap}
