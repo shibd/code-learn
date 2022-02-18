@@ -7,7 +7,7 @@ import java.util.List;
  * @Auther: baozi
  * @Date: 2019/4/9 19:35
  * @Description:
- * 两个整数求交集
+ * 两个整数求交集: O(n + m)实现方法
  */
 public class SortArrayIntersection2 {
 
