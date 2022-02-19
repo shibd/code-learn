@@ -46,6 +46,9 @@ import io.shibd.qbank.topk.TopkCount;
  * 8. 剑指 Offer 33. 校验二叉搜索树的后序遍历序列 {@link io.shibd.leetcode.binarytree.VerifyPostorder}
  * 9. 230. 二叉搜索树中第K小的元素(中序遍历) {@link io.shibd.leetcode.binarytree.KthSmallest}
  * 10. 1206. 手写一个跳表 {@link io.shibd.leetcode.skiplist.Skiplist}
+ * 11. 51. N 皇后 {@link io.shibd.leetcode.call8queens.Solution}
+ *
+ *
  *
  * ## 学习样例代码
  * 1. BitMap的实现 {@link io.shibd.learn.bitemaps.BitMap}
