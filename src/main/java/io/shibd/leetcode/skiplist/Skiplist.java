@@ -9,7 +9,7 @@ public class Skiplist {
 
 
     // 每个节点有第i层指针的概率
-    private final static double P = 0.8;
+    private final static double P = 0.25;
     // 整个跳表的最大层数
     private final static int maxLevel = 32;
 
