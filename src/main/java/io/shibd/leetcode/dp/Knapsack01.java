@@ -36,26 +36,24 @@ public class Knapsack01 {
 
     public int solution(int bagW, int[] w, int[] value) {
 
-        int[][] dp = new int[w.length][bagW + 1];
+        // 多一行和一列,作为哨兵处理
+        int[][] dp = new int[w.length + 1][bagW + 1];
 
-        // 处理第一行
-        for (int j = w[0]; j <= bagW; j++) {
-            dp[0][j] = value[0];
-        }
-
-        for (int i = 1; i < w.length; i++) {
-            for (int j = 0; j <= bagW; j++) {
+        for (int i = 1; i <= w.length; i++) {
+            // 这个ni声明w和value数组对应的实际下标
+            int ni = i - 1;
+            for (int j = 1; j <= bagW; j++) {
                 // 背包放不下
-                if (j < w[i]) {
+                if (j < w[ni]) {
                     dp[i][j] = dp[i - 1][j];
                 } else {
                     // 比较放还是不放的最大价值(注意，这里不会数组越界，j - w[i]，因为当j < w[i]的时候，不会进到这个分支)
-                    dp[i][j] = Math.max(dp[i - 1][j], value[i] + dp[i - 1][j - w[i]]);
+                    dp[i][j] = Math.max(dp[i - 1][j], value[ni] + dp[i - 1][j - w[ni]]);
                 }
             }
         }
 
-        for (int i = 0; i < w.length; i++) {
+        for (int i = 0; i <= w.length; i++) {
             for (int j = 0; j <= bagW; j++) {
                 System.out.print(dp[i][j] + " ");
             }

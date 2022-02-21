@@ -113,9 +113,11 @@ public class CallPartition {
         int W = sum / 2;//相当于背包总承重
         int[] dp = new int[W + 1];
         dp[0] = 1;
-        for (int num : nums) {
-            for (int i = W; i >= num; i--) {
-                dp[i] += dp[i - num];
+
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = W; j >= nums[i]; j--) {
+                dp[j] += dp[j - nums[i]];
             }
         }
         return dp[W] != 0;

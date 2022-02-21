@@ -58,12 +58,16 @@ import io.shibd.qbank.topk.TopkCount;
  * 18. 416. 分割等和子集 {@link io.shibd.leetcode.dp.CallPartition}
  * 19. 1049. 最后一块石头的重量 II {@link io.shibd.leetcode.dp.LastStoneWeightII}
  * 20. 0-1背包带价值 TODO leetcode没有找到对应题目 {@link io.shibd.leetcode.dp.Knapsack01}
- * 21. 完全背包 TODO
+ * 21. 322. 零钱兑换 完全背包 {@link io.shibd.leetcode.dp.CoinChange}
  *
  *
  * ## 学习样例代码
  * 1. BitMap的实现 {@link io.shibd.learn.bitemaps.BitMap}
  * 2. 使用AQS自己实现一个同步锁 {@link io.shibd.learn.aqs.Mutex}
+ *
+ *
+ * ## 学习资料:
+ * 背包问题: https://www.bilibili.com/video/BV1C7411K79w?p=1
  */
 public class Readme {
 }
