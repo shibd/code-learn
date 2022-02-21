@@ -1,7 +1,9 @@
 package io.shibd;
 
 import io.shibd.leetcode.lfu.LFUCache;
+import io.shibd.leetcode.string.CountPalindromeSubstr;
 import io.shibd.leetcode.lru.LRUCache;
+import io.shibd.leetcode.string.LongPalindromeSub;
 import io.shibd.qbank.alibaba.*;
 import io.shibd.qbank.aqs.countdownlatch.ReaderResult;
 import io.shibd.qbank.aqs.cyclicbarrier.TestCyclicBarrier;
@@ -47,7 +49,16 @@ import io.shibd.qbank.topk.TopkCount;
  * 9. 230. 二叉搜索树中第K小的元素(中序遍历) {@link io.shibd.leetcode.binarytree.KthSmallest}
  * 10. 1206. 手写一个跳表 {@link io.shibd.leetcode.skiplist.Skiplist}
  * 11. 51. N 皇后 {@link io.shibd.leetcode.call8queens.Solution}
- *
+ * 12. 70. 爬楼梯问题(动态规划) {@link io.shibd.leetcode.climbstairs.Solution}
+ * 13. 1143. 最长公共子序列（运行main函数查看动态二维表） {@link io.shibd.leetcode.longestcomsubstr.Solution}
+ * 14. 5. 最长回文子串 {@link LongPalindromeSub}
+ * 15. 647. 回文子串数量 {@link CountPalindromeSubstr}
+ * 16. 214. TODO 最短回文串 {@link io.shibd.leetcode.string.ShortsPalindrome}
+ * 17. 131. 分割回文串 {@link io.shibd.leetcode.string.PartitionPalindrome}
+ * 18. 416. 分割等和子集 {@link io.shibd.leetcode.dp.CallPartition}
+ * 19. 1049. 最后一块石头的重量 II {@link io.shibd.leetcode.dp.LastStoneWeightII}
+ * 20. 0-1背包带价值 TODO leetcode没有找到对应题目 {@link io.shibd.leetcode.dp.Knapsack01}
+ * 21. 完全背包 TODO
  *
  *
  * ## 学习样例代码
