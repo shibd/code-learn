@@ -15,7 +15,7 @@ public class LRUCache {
     // 虚拟头和尾节点
     Node head, tail;
     // 链表长度
-    int linkedSize;
+    private int linkedSize;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
@@ -54,7 +54,7 @@ public class LRUCache {
             // 移除现在的位置
             removeNode(node);
         }
-        // 添加到尾部
+        // 添加到头部
         addToHead(node);
     }
 

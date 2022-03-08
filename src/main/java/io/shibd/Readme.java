@@ -35,6 +35,7 @@ import io.shibd.qbank.topk.TopkCount;
  * 17.手写一个队列 {@link ArrayQueue}
  * 18.手写一个栈 {@link ArrayStack}
  * 19.二分查找 (查找小于给定值的最大元素) {@link io.shibd.learn.BinarySearch}
+ * 20. 多线程下单验证,失败一个返回即取消所有任务 {@link io.shibd.qbank.jd.Solution2}
  *
  *
  * ## LeetCode 括号内部是题号
@@ -47,6 +48,7 @@ import io.shibd.qbank.topk.TopkCount;
  * 7. 剑指 Offer 55 - I. 二叉树的深度 {@link io.shibd.leetcode.binarytree.MaxDepthBinaryTree}
  * 8. 面试题32 - I. 从上到下打印二叉树 {@link io.shibd.leetcode.binarytree.LevelOrderBinaryTree}
  * 8. 剑指 Offer 33. 校验二叉搜索树的后序遍历序列 {@link io.shibd.leetcode.binarytree.VerifyPostorder}
+ * 9. 二叉树前序遍历 {@link io.shibd.leetcode.binarytree.PreorderTraversal}
  * 9. 230. 二叉搜索树中第K小的元素(中序遍历) {@link io.shibd.leetcode.binarytree.KthSmallest}
  * 10. 1206. 手写一个跳表 {@link io.shibd.leetcode.skiplist.Skiplist}
  * 11. 51. N 皇后 {@link io.shibd.leetcode.call8queens.Solution}
@@ -61,6 +63,7 @@ import io.shibd.qbank.topk.TopkCount;
  * 20. 0-1背包带价值 TODO leetcode没有找到对应题目 {@link io.shibd.leetcode.dp.Knapsack01}
  * 21. 322. 零钱兑换 完全背包 {@link io.shibd.leetcode.dp.CoinChange}
  * 22. 210. (拓扑排序)课程表 II {@link io.shibd.leetcode.topological.ScheduleII}
+ * 23. 剑指 Offer 48. 最长不含重复字符的子字符串 {@link io.shibd.leetcode.string.LongNotEquaStr}
  *
  *
  * ## 学习样例代码
